@@ -69,7 +69,7 @@ This is an example of how to list things you need to use the software and how to
 <!-- API -->
 ## API
   
-   * POST Save Payment
+   * POST  Payment
  ```sh
    https://portone-assignment-production.up.railway.app/api/v1/create_intent
    ```
@@ -82,7 +82,7 @@ This is an example of how to list things you need to use the software and how to
 
    ```
 
-   * GET Capture
+   * POST Capture
 
  ```sh
    https://portone-assignment-production.up.railway.app/api/v1/capture_intent/pi_3PTeIg07mhhqo5690JIwgEW6
