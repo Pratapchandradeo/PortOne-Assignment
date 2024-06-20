@@ -57,9 +57,9 @@ This is an example of how to list things you need to use the software and how to
 
 ## 1. Customer Module
 
--Based on Stripe API documentation.
--Handles customer registration.
--It allows searching for a customer and retrieving a list of customers.
+- Based on Stripe API documentation.
+- Handles customer registration.
+- It allows searching for a customer and retrieving a list of customers.
   
 ## 2.Payment Module
 - creates and stores payment objects using the Stripe API.
