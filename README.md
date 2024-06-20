@@ -9,7 +9,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This project is a Java-based Spring Boot API gateway that integrates Stripe's Payment and Customer models for demonstration purposes. It allows you to easily create customers and implement a payment gateway for processing payments, leveraging Stripe's API for secure transactions. The implementation showcases the actual workings of the API without the need to import additional third-party libraries or code.
+This project is a Java-based Spring Boot API gateway that integrates Stripe's Payment models for demonstration purposes. It allows you to easily implement a payment gateway for processing payments, leveraging Stripe's API for secure transactions. The implementation showcases the actual workings of the API without the need to import additional third-party libraries or code.
 
 
 
