@@ -2,52 +2,14 @@
 
 
 
-<a name="readme-top"></a> 
 
-<!-- PROJECT SHIELDS -->
-
-  <p align="center">
-    #<strong>Stripe | Financial Infrastructure to Grow Your Revenue  !</strong>
-    <br />
-    <a href="(https://github.com/Pratapchandradeo)"><strong>Explore the docs »</strong></a>
-    <br />
-  </p>
-</div>
-
-
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#modules">Modules</a></li>
-    <li><a href="#API">API</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributors">Contributors</a></li>
-    <li><a href="#references">References</a></li>
-  </ol>
-</details>
 
 
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This is Java Bases Spring-Boot API gateway. Here I have used Payment and Customer models from Stripe. Only for testing purposes. 
-Easily Create Customer and make payment gateway to make payments. No need to import third party libraries or code. Stripe API provides you all. Here I have used secured payments from Stripe to DEMO the actual working of API.
+This project is a Java-based Spring Boot API gateway that integrates Stripe's Payment and Customer models for demonstration purposes. It allows you to easily create customers and implement a payment gateway for processing payments, leveraging Stripe's API for secure transactions. The implementation showcases the actual workings of the API without the need to import additional third-party libraries or code.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -91,20 +53,18 @@ This is an example of how to list things you need to use the software and how to
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- USAGE EXAMPLES -->
-## Modules
-This Application Consist 2 Modules
+
 
 ## 1. Customer Module
 
-- Based Upon Stripe API Docs.
-- It performs Registration Of Customer
-- Search a customer, Get a list of customers , etc.
+-Based on Stripe API documentation.
+-Handles customer registration.
+-It allows searching for a customer and retrieving a list of customers.
   
 ## 2.Payment Module
-- This Module Will Make A Payment Object and store it Using Stripe API.
-- Confirm and Capture payments using various payment methods such as Debit or Credit card, Google Pay, Amazon Pay ,etc.
-- If not satisfied you can always reverse the process that is REFUND.
+- creates and stores payment objects using the Stripe API.
+- Confirms and captures payments using various methods such as debit or credit cards.
+- Provides the ability to issue refunds if necessary.
 
 
 <!-- API -->
@@ -120,7 +80,6 @@ This Application Consist 2 Modules
     "amount":80000,
     "currency":"INR"
 }
- 
 
    ```
 
@@ -129,22 +88,19 @@ This Application Consist 2 Modules
  ```sh
    https://portone-assignment-production.up.railway.app/api/v1/capture_intent/pi_3PTeIg07mhhqo5690JIwgEW6
    ```
- ```sh
- 
-   ```
+
    * POST refund
 
  ```sh
  https://portone-assignment-production.up.railway.app/api/v1/create_refund/pi_3PTeIg07mhhqo5690JIwgEW6
    ```
- ```sh
+ 
   * GET List Payments
 
  ```sh
 https://portone-assignment-production.up.railway.app/api/v1/get_intents
    ```
- ```sh
-   ````
+
 
 <!--References -->
 ## references
