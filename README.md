@@ -11,7 +11,7 @@
 
 This project is a Java-based Spring Boot API gateway that integrates Stripe's Payment and Customer models for demonstration purposes. It allows you to easily create customers and implement a payment gateway for processing payments, leveraging Stripe's API for secure transactions. The implementation showcases the actual workings of the API without the need to import additional third-party libraries or code.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
@@ -19,8 +19,8 @@ This project is a Java-based Spring Boot API gateway that integrates Stripe's Pa
 
 Tech Stack :
 
-![My Skills](https://skillicons.dev/icons?i=java,spring,maven,github,git,stripe,vscode&theme=light)
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+![My Skills](https://skillicons.dev/icons?i=java,spring,maven,github,git,vscode&theme=light)
+
 
 
 
@@ -51,7 +51,6 @@ This is an example of how to list things you need to use the software and how to
   https://stripe.com/in
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
